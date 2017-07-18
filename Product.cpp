@@ -10,49 +10,54 @@ using namespace std;
 namespace sict{
     Product::Product() {
         sku_[0] = '\0';
-        name_ = NULL;
+        name_ = nullptr;
         price_ = 0;
-        taxed_ = 0;
+        taxed_ = false;
         quantity_ = 0;
         qtyNeeded_ = 0;
     }
 
-    Product::Product (const char* sku, const char* name, bool taxed, double price, int quantity) {
-        if(sku_[0] != '\0' && name_!= nullptr) {
-            strcpy(sku_,sku);
-            name_ = nullptr;
-            name_ = new char[strlen(name) +1];
-            strcpy(name_, name);
-            quantity_ = quantity;
-            price_ = price;
-            taxed_ = taxed;
+    Product::Product (const char* sku, const char* name, bool taxed, double price, int qtyNeeded) {
+        strncpy(sku_,sku,MAX_SKU_LEN+1);
+        name_ = new char[strlen(name) +1];
+        strcpy(name_, name);
+        quantity_ = 0;
+        qtyNeeded_ = qtyNeeded;
+        price_ = price;
+        taxed_ = taxed;
+    }
+
+
+
+    Product& Product::operator=(const Product &other) {
+        if(this != &other) {
+            strncpy(sku_,other.sku_,MAX_SKU_LEN+1);
+            quantity_ = 0;
+            qtyNeeded_ = other.qtyNeeded_;
+            price_ = other.price_;
+            taxed_ = other.taxed_;
+
+            if(name_ != nullptr) {
+                delete[] name_;
+            }
+                name_ = new char[strlen(other.name_) + 1];
+                strcpy(name_, other.name_);
+
         } else {
             sku_[0] = '\0';
             name_ = nullptr;
             price_ = 0;
-            taxed_ = 0;
+            taxed_ = false;
             quantity_ = 0;
+            qtyNeeded_ = 0;
         }
+
     }
 
-    Product::Product(const char *sku, const char *name){
-        strcpy(sku_, sku);
-        strcpy(name_, name);
-    }
-
-
-    Product& Product::operator=(const Product &other) {
-        if(!Product::isEmpty()) {
-            Product::name(other.name_);
-            quantity_ = other.quantity_;
-        }
-        return *this;
-    }
-
-    Product::~Product() {
-        delete[] name_;
-        name_ = nullptr;
-    }
+//    Product::~Product() {
+//        delete[] name_;
+//        name_ = nullptr;
+//    }
 
     void Product::sku(const char *sku) {
         strncpy(sku_, sku, MAX_SKU_LEN + 1);
@@ -114,14 +119,18 @@ namespace sict{
     }
 
     const bool Product::isEmpty() const {
-        if(sku_[0] == '\0' && name_ == nullptr && price_ == 0 && qtyNeeded_ == 0 && taxed_ == false) {
-            return false;
+        if(sku_[0] == '\0' && name_ == nullptr && price_ == 0 && qtyNeeded_ == 0 && quantity_ == 0 && taxed_ == false) {
+            return true;
         }
-        return true;
+        return false;
     }
 
-    bool Product::operator==(const char *temp) {
-        return (sku_ == temp);
+    bool Product::operator==(const char* sku) {
+        bool TF = false;
+        if(strcmp(sku_,sku) == 0){
+            TF = true;
+        }
+        return TF;
     }
 
     int Product::operator+=(const int add) {
@@ -132,21 +141,19 @@ namespace sict{
     }
 
     int Product::operator-=(const int min) {
-        return quantity_ - min;
+        return quantity_ -= min;
     }
 
     double operator+=(double& left, const Product& item) {
-        return left + (item.price()*item.quantity());
+        return left = (item.price()*item.quantity());
     }
 
     std::istream& operator >> (std::istream& is, Product& I) {
         I.read(is);
-        //I.read(is);
         return is;
     }
     std::ostream& operator<<(std::ostream&os, const Product& I)
     {
-
         I.write(os, true);
         return os;
     }

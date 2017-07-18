@@ -17,11 +17,9 @@ namespace sict{
         int qtyNeeded_;
     public:
         Product();
-        Product(const char *sku, const char *name, bool taxed, double price, int quantity);
-        Product(const char *sku, const char *name);
-
+        Product(const char *sku, const char *name, bool taxed = true, double price = 0.0, int quantity = 0);
         Product& operator=(const Product& other);
-        virtual ~Product();
+//        ~Product();
 
         //TODO SETTER
         void sku(const char * sku);
@@ -42,7 +40,7 @@ namespace sict{
         double cost()const;
         const bool isEmpty() const;
 
-        bool operator == (const char * temp);
+        bool operator == (const char * sku);
         int operator += (const int add);
         int operator -= (const int min);
     };
