@@ -4,17 +4,13 @@
 #include <cstring>
 
 #include "Product.h"
-#include "general.h"
-#include "MyFile.h"
-#include "Date.h"
-#include "Streamable.h"
 
 using namespace std;
 
 namespace sict{
     Product::Product() {
         sku_[0] = '\0';
-        name_ = nullptr;
+        name_ = NULL;
         price_ = 0;
         taxed_ = 0;
         quantity_ = 0;

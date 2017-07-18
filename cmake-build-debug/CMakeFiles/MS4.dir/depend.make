@@ -12,7 +12,6 @@ CMakeFiles/MS4.dir/MyFile.cpp.o: ../MyFile.cpp
 CMakeFiles/MS4.dir/MyFile.cpp.o: ../MyFile.h
 CMakeFiles/MS4.dir/MyFile.cpp.o: ../Streamable.h
 
-CMakeFiles/MS4.dir/Product.cpp.o: ../Date.h
 CMakeFiles/MS4.dir/Product.cpp.o: ../MyFile.h
 CMakeFiles/MS4.dir/Product.cpp.o: ../Product.cpp
 CMakeFiles/MS4.dir/Product.cpp.o: ../Product.h

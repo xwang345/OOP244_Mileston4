@@ -12,15 +12,15 @@
 using namespace std;
 
 namespace sict{
-    class Streamable {
+    class Streamable{
         // pure virutal function
     public:
         virtual fstream& store(fstream&, bool addNewLine = true)const = 0;
         virtual fstream& load(fstream&) = 0;
         virtual ostream& write(ostream&, bool)const  = 0;
         virtual istream& read(istream&) = 0;
-
     };
+
 }
 
 #endif //MS3_STREAMABLE_H
