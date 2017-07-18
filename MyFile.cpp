@@ -25,6 +25,7 @@ namespace sict{
     text_[0] = char(0);
     strcpy(fname_, fname);
   }
+    //std::fstream& store(std::fstream& file, bool addNewLine)const;
   fstream& MyFile::store(std::fstream& file, bool addNewLine)const{
     file.open(fname_, ios::app|ios::out);
     int i = 0;

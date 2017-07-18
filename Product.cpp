@@ -139,8 +139,9 @@ namespace sict{
         return left + (item.price()*item.quantity());
     }
 
-    std::istream& operator >> (std::istream&is, Product& I) {
+    std::istream& operator >> (std::istream& is, Product& I) {
         I.read(is);
+        //I.read(is);
         return is;
     }
     std::ostream& operator<<(std::ostream&os, const Product& I)

@@ -4,6 +4,7 @@
 
 #include "Streamable.h"
 #include "general.h"
+#include "MyFile.h"
 
 namespace sict{
     class Product: public Streamable{

@@ -9,7 +9,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name               Date                 Reason
+// Name  Xiaochen Wang     Date  18-July-2017     Reason
 /////////////////////////////////////////////////////////////////
 
 #include <iomanip>
@@ -130,30 +130,30 @@ void test(){
   cout << res << "=" << val <<endl;
 }
 int main(){
-  fstream F("ms4.txt", ios::out);
-  F.close();
-  SItem S;
-  SItem U("4321", "Rice");
-  cout << "Empty Prouduct:" << endl << S << endl;
-  cout << "U(\"4321\", \"Rice\"):" << endl << U << endl;
+    fstream F("ms4.txt", ios::out);
+    F.close();
+    SItem S;
+    SItem U("4321", "Rice");
+    cout << "Empty Prouduct:" << endl << S << endl;
+    cout << "U(\"4321\", \"Rice\"):" << endl << U << endl;
 
-  cout << "Please enter the following information:" << endl;
-  cout << "Sku: 1234" << endl;
-  cout << "Name(no spaces) : Blanket" << endl;
-  cout << "Qty : 12" << endl;
-  cout << "Qty Needed : 23" << endl;
-  cout << "Is taxed ? (1 / 0) : 1" << endl;
-  cout << "Price : 12.34" << endl;
-  test();
-  cout << "Please enter the following information:" << endl;
-  cout << "Sku: 1234" << endl;
-  cout << "Name(no spaces) : Jacket" << endl;
-  cout << "Qty : 12" << endl;
-  cout << "Qty Needed : 23" << endl;
-  cout << "Is taxed ? (1 / 0) : 0" << endl;
-  cout << "Price : 12.34" << endl;
-  test();
-  dumpFile(F);
-  cout << "----The End" << endl;
-  return 0;
+    cout << "Please enter the following information:" << endl;
+    cout << "Sku: 1234" << endl;
+    cout << "Name(no spaces) : Blanket" << endl;
+    cout << "Qty : 12" << endl;
+    cout << "Qty Needed : 23" << endl;
+    cout << "Is taxed ? (1 / 0) : 1" << endl;
+    cout << "Price : 12.34" << endl;
+    test();
+    cout << "Please enter the following information:" << endl;
+    cout << "Sku: 1234" << endl;
+    cout << "Name(no spaces) : Jacket" << endl;
+    cout << "Qty : 12" << endl;
+    cout << "Qty Needed : 23" << endl;
+    cout << "Is taxed ? (1 / 0) : 0" << endl;
+    cout << "Price : 12.34" << endl;
+    test();
+    dumpFile(F);
+    cout << "----The End" << endl;
+    return 0;
 }

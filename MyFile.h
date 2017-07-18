@@ -17,19 +17,20 @@
 #include "Streamable.h"
 #include "Streamable.h"
 #include "Streamable.h" // Streamable.h is included three times on purpose.
+using namespace std;
 namespace sict{
   class MyFile : public Streamable {
     char fname_[256];
     char text_[10000];
   public:
     MyFile(const char* fname);
-    std::fstream& store(std::fstream& file, bool addNewLine)const;
-    std::fstream& load(std::fstream& file);
-    std::ostream& write(std::ostream& os, bool linear)const;
-    std::istream& read(std::istream& is);
+    fstream& store(fstream& file, bool addNewLine)const;
+    fstream& load(fstream& file);
+    ostream& write(ostream& os, bool linear)const;
+    istream& read(istream& is);
     void print();
   };
-  std::ostream& operator<<(std::ostream& ostr, const MyFile& mf);
-  std::istream& operator>>(std::istream& istr, MyFile& mf);
+  ostream& operator<<(ostream& ostr, const MyFile& mf);
+  istream& operator>>(istream& istr, MyFile& mf);
 }
 #endif
