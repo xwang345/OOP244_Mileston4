@@ -1,6 +1,4 @@
-// Product.h
-// Student Name: Xiaochen Wang
-// Student ID: 015297153 
+
 #ifndef SICT_PRODUCT_H_
 #define SICT_PRODUCT_H_
 
