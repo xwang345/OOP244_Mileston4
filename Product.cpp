@@ -1,3 +1,7 @@
+//////////////////////////////////////////////
+//   Created by Xiaochen Wang
+//   18-July-2017
+/////////////////////////////////////////////
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
@@ -32,7 +36,7 @@ namespace sict{
     Product& Product::operator=(const Product &other) {
         if(this != &other) {
             strncpy(sku_,other.sku_,MAX_SKU_LEN+1);
-            quantity_ = 0;
+            quantity_ = other.quantity_;
             qtyNeeded_ = other.qtyNeeded_;
             price_ = other.price_;
             taxed_ = other.taxed_;
@@ -40,8 +44,9 @@ namespace sict{
             if(name_ != nullptr) {
                 delete[] name_;
             }
-                name_ = new char[strlen(other.name_) + 1];
-                strcpy(name_, other.name_);
+
+            name_ = new char[strlen(other.name_) + 1];
+            strcpy(name_, other.name_);
 
         } else {
             sku_[0] = '\0';
@@ -51,7 +56,7 @@ namespace sict{
             quantity_ = 0;
             qtyNeeded_ = 0;
         }
-
+        return *this;
     }
 
 //    Product::~Product() {
@@ -59,8 +64,8 @@ namespace sict{
 //        name_ = nullptr;
 //    }
 
-    void Product::sku(const char *sku) {
-        strncpy(sku_, sku, MAX_SKU_LEN + 1);
+    void Product::sku(const char sku[]) {
+        strncpy(sku_, sku, MAX_SKU_LEN);
     }
 
     void Product::name(const char *name) {
@@ -111,11 +116,11 @@ namespace sict{
     }
 
     double Product::cost() const {
+	double price = price_;
         if(Product::taxed()){
-            return price_*(1+TAX);
-        } else {
-            return price_;
+            price = price*(1+TAX);
         }
+	return price;
     }
 
     const bool Product::isEmpty() const {
@@ -133,10 +138,8 @@ namespace sict{
         return TF;
     }
 
-    int Product::operator+=(const int add) {
-        int temp;
-        temp = add + quantity_;
-        quantity_ = temp;
+    int Product::operator+=(int add) {
+        quantity_ += add;
         return quantity_;
     }
 
@@ -145,7 +148,8 @@ namespace sict{
     }
 
     double operator+=(double& left, const Product& item) {
-        return left = (item.price()*item.quantity());
+        left = (item.cost() * item.quantity());
+	return left;
     }
 
     std::istream& operator >> (std::istream& is, Product& I) {
@@ -154,7 +158,7 @@ namespace sict{
     }
     std::ostream& operator<<(std::ostream&os, const Product& I)
     {
-        I.write(os, true);
+        I.write(os,true);
         return os;
     }
 

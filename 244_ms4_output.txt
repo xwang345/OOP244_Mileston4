@@ -1,0 +1,68 @@
+Script started on Tue 11 Jul 2017 07:57:15 PM EDT
+cameron.gray@matrix:~/_staging/244/ms4> ws
+Empty Prouduct:
+
+U("4321", "Rice"):
+4321: Rice, qty: 0, qtyNeeded:0, Cost: 0.00
+Please enter the following information:
+Sku: 1234
+Name(no spaces) : Blanket
+Qty : 12
+Qty Needed : 23
+Is taxed ? (1 / 0) : 1
+Price : 12.34
+Enter Product info: 
+Sku: 1234
+Name (no spaces): Blanket
+Qty: 12
+Qty Needed: 23
+Is taxed? (1/0): 1
+Price: 12.34
+T: (store, load)
+1234: Blanket, qty: 12, qtyNeeded:23, Cost: 13.94
+S: 
+1234: Blanket, qty: 12, qtyNeeded:23, Cost: 13.94
+V(S): 
+1234: Blanket, qty: 12, qtyNeeded:23, Cost: 13.94
+U=T & op= :
+1234: Blanket, qty: 12, qtyNeeded:23, Cost: 13.94
+Operator == :
+op== is OK
+op+=: 
+1234: Blanket, qty: 22, qtyNeeded:23, Cost: 13.94
+op+=double : 
+306.77=306.77
+Please enter the following information:
+Sku: 1234
+Name(no spaces) : Jacket
+Qty : 12
+Qty Needed : 23
+Is taxed ? (1 / 0) : 0
+Price : 12.34
+Enter Product info: 
+Sku: 1234
+Name (no spaces): Jacket
+Qty: 12
+Qty Needed: 23
+Is taxed? (1/0): 0
+Price: 12.34
+T: (store, load)
+1234: Jacket, qty: 12, qtyNeeded:23, Cost: 12.34
+S: 
+1234: Jacket, qty: 12, qtyNeeded:23, Cost: 12.34
+V(S): 
+1234: Jacket, qty: 12, qtyNeeded:23, Cost: 12.34
+U=T & op= :
+1234: Jacket, qty: 12, qtyNeeded:23, Cost: 12.34
+Operator == :
+op== is OK
+op+=: 
+1234: Jacket, qty: 22, qtyNeeded:23, Cost: 12.34
+op+=double : 
+271.48=271.48
+1234	Jacket	12	23	0	12.34
+----The End
+cameron.gray@matrix:~/_staging/244/ms4> exit
+exit
+
+Script done on Tue 11 Jul 2017 07:57:49 PM EDT

@@ -1,4 +1,6 @@
 // Product.h
+// Student Name: Xiaochen Wang
+// Student ID: 015297153 
 #ifndef SICT_PRODUCT_H_
 #define SICT_PRODUCT_H_
 
@@ -41,7 +43,7 @@ namespace sict{
         const bool isEmpty() const;
 
         bool operator == (const char * sku);
-        int operator += (const int add);
+        int operator += (int add);
         int operator -= (const int min);
     };
     // end class Item

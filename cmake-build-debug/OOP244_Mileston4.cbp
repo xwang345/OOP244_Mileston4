@@ -8,114 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug"/>
+				<Option working_dir="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OOP244_Mileston4">
-				<Option output="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/OOP244_Mileston4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP244_Mileston4"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="OOP244_Mileston4/fast">
-				<Option output="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/OOP244_Mileston4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP244_Mileston4/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/zhi/OOP244_Mileston4/cmake-build-debug"/>
+				<Option working_dir="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OOP244_Mileston4">
+				<Option output="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/OOP244_Mileston4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP244_Mileston4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OOP244_Mileston4/fast">
+				<Option output="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/OOP244_Mileston4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 OOP244_Mileston4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/Date.cpp">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/Date.cpp">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/Date.h">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/Date.h">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/ErrorMessage.cpp">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/ErrorMessage.cpp">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/ErrorMessage.h">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/ErrorMessage.h">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/MyFile.cpp">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/MyFile.cpp">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/MyFile.h">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/MyFile.h">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/Product.cpp">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/Product.cpp">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/Product.h">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/Product.h">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/Streamable.h">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/Streamable.h">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/general.h">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/general.h">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/ms4_tester.cpp">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/ms4_tester.cpp">
 			<Option target="OOP244_Mileston4"/>
 		</Unit>
-		<Unit filename="C:/Users/zhi/OOP244_Mileston4/CMakeLists.txt">
+		<Unit filename="/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

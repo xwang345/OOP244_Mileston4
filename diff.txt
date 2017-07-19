@@ -1,0 +1,10 @@
+
+In line number 34 of your output:
+The output should be:
+306.77=306.77
+But your output is: 
+311.48=271.48
+ ^
+-|
+Professor's character ASCII code: hex(30), dec(48)
+un-matched character ASCII code: hex(31), dec(49)

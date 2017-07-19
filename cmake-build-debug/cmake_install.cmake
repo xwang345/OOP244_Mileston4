@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/zhi/OOP244_Mileston4
+# Install script for directory: /Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OOP244_Mileston4")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/zhi/OOP244_Mileston4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/xiaochen/Downloads/OOP244SDD_WORKS/OOP244_Mileston4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

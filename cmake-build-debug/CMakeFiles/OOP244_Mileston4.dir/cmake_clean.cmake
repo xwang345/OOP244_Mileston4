@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP244_Mileston4.dir/Date.cpp.obj"
-  "CMakeFiles/OOP244_Mileston4.dir/ErrorMessage.cpp.obj"
-  "CMakeFiles/OOP244_Mileston4.dir/ms4_tester.cpp.obj"
-  "CMakeFiles/OOP244_Mileston4.dir/MyFile.cpp.obj"
-  "CMakeFiles/OOP244_Mileston4.dir/Product.cpp.obj"
+  "CMakeFiles/OOP244_Mileston4.dir/Date.cpp.o"
+  "CMakeFiles/OOP244_Mileston4.dir/ErrorMessage.cpp.o"
+  "CMakeFiles/OOP244_Mileston4.dir/ms4_tester.cpp.o"
+  "CMakeFiles/OOP244_Mileston4.dir/MyFile.cpp.o"
+  "CMakeFiles/OOP244_Mileston4.dir/Product.cpp.o"
   "OOP244_Mileston4.pdb"
-  "OOP244_Mileston4.exe"
-  "OOP244_Mileston4.exe.manifest"
-  "libOOP244_Mileston4.dll.a"
+  "OOP244_Mileston4"
 )
 
 # Per-language clean rules from dependency scanning.
